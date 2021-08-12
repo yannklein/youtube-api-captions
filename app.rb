@@ -26,6 +26,10 @@ TOKEN_PATH = "token.yaml".freeze
 OOB_URI = "urn:ietf:wg:oauth:2.0:oob".freeze
 SCOPE = "https://www.googleapis.com/auth/youtube.force-ssl"
 
+configure do
+  enable :cross_origin
+end
+
 def authorize
   client_id = Google::Auth::ClientId.from_file CREDENTIALS_PATH
   token_store = Google::Auth::Stores::FileTokenStore.new file: TOKEN_PATH
