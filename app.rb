@@ -19,7 +19,6 @@ require "googleauth/stores/file_token_store"
 require "google/apis/youtube_v3"
 require 'google-id-token'
 require 'dotenv'
-require 'pry'
 
 CREDENTIALS_PATH = "credentials.json".freeze
 TOKEN_PATH = "token.yaml".freeze
