@@ -1,11 +1,11 @@
 # Yann's notes
 
 I based my code on those links:
-- (the api ruby client raw code itself)[https://github.com/googleapis/google-api-ruby-client/blob/master/google-api-client/generated/google/apis/youtube_v3/service.rb]
-- (the api doc)[https://developers.google.com/youtube/v3/docs/captions/download]
-- (the ruby quickstart code for the authorize part)[https://developers.google.com/youtube/v3/quickstart/ruby]
+- [the api ruby client raw code itself](https://github.com/googleapis/google-api-ruby-client/blob/master/google-api-client/generated/google/apis/youtube_v3/service.rb)
+- [the api doc](https://developers.google.com/youtube/v3/docs/captions/download)
+- [the ruby quickstart code for the authorize part](https://developers.google.com/youtube/v3/quickstart/ruby)
 
-I got a Desktop client Oauth2 credential from (the Google Dev Console)[https://console.cloud.google.com/apis/credentials?project=test-api-1553671520706]
+I got a Desktop client Oauth2 credential from [the Google Dev Console](https://console.cloud.google.com/apis/credentials?project=test-api-1553671520706)
 
 # How to use
 
